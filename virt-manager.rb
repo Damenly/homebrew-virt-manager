@@ -94,11 +94,11 @@ class VirtManager < Formula
   end
 end
 __END__
-diff --git a/virt-manager b/virt-manager
-index 15d5109..8ee305a 100755
---- a/virt-manager
-+++ b/virt-manager
-@@ -151,7 +151,8 @@ def parse_commandline():
+diff --git a/virtManager/virtmanager.py b/virtManager/virtmanager.py
+index f6d538bc..06b108e7 100755
+--- a/virtManager/virtmanager.py
++++ b/virtManager/virtmanager.py
+@@ -137,7 +137,8 @@ def parse_commandline():
          help="Print debug output to stdout (implies --no-fork)",
          default=False)
      parser.add_argument("--no-fork", action="store_true",
